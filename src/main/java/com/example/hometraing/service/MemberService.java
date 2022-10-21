@@ -45,6 +45,7 @@ public class MemberService extends Timestamped {
 
         memberRepository.save(member1);
 
+        System.out.println("인서트 확인");
 
 
         return ResponseDto.success(
